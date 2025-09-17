@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:JavaMath}",
+      "name": "Debug JavaMath",
+      "program": "${workspaceFolder:JavaMath}/.build/debug/JavaMath",
+      "preLaunchTask": "swift: Build Debug JavaMath"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:JavaMath}",
+      "name": "Release JavaMath",
+      "program": "${workspaceFolder:JavaMath}/.build/release/JavaMath",
+      "preLaunchTask": "swift: Build Release JavaMath"
+    }
+  ]
+}
